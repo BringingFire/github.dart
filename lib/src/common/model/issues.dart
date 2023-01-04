@@ -169,10 +169,13 @@ class IssueComment {
 class IssueLabel {
   IssueLabel({
     this.name = '',
+    this.description = '',
     this.color = '',
   });
 
   String name;
+
+  String description;
 
   String color;
 
